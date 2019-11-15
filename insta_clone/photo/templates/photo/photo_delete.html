@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}
+
+<div class="alert alert-primary" role\='alert'>
+    정말로 {{object}} 지울꺼쉴?
+</div>
+<form action="" method="POST">
+    {% csrf_token %}
+    <input type="submit" value="Delete OK">
+</form>
+{% endbolck %}
