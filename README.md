@@ -18,9 +18,11 @@ https://github.com/pakupoko/-Hashtag-Lead-
 config/settings.py 에서 DB를 연동하고, 로그 데이터를 업로드할 스키마를 생성해야 합니다.
 
 주요 라이브러리를 설치해야 합니다.
-Pillow == 6.1.0
-tensorflow == 1.14.0
-numpy == 1.17.2
+
+- Pillow == 6.1.0
+- tensorflow == 1.14.0
+- numpy == 1.17.2
+
 버전 변동 시 추가로 업데이트 할 예정입니다. 이 부분에 대해 문제가 있다면 알려주세요. Readme에 업데이트 하겠습니다.
 
 $python manage.py runserver 명령어를 통해 서버를 구축합니다. 생성된 주소로 들어가면 밑의 초기화면이 켜집니다.
